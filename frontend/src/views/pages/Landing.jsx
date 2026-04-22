@@ -9,9 +9,9 @@ const Landing = () => {
         <div className="flex justify-between items-center px-8 h-full w-full max-w-7xl mx-auto">
           <div className="text-xl font-bold text-primary tracking-tighter">AjkerDaam</div>
           <div className="hidden md:flex items-center space-x-8">
-            <Link className="text-primary border-b-2 border-secondary-fixed-dim pb-1 hover:text-primary transition-colors duration-200" to="/">Consumer</Link>
-            <Link className="text-on-surface-variant hover:text-primary transition-colors duration-200" to="/signup?role=vendor">Vendor</Link>
-            <Link className="text-on-surface-variant hover:text-primary transition-colors duration-200" to="/signup?role=admin">Admin</Link>
+            <Link className="text-primary border-b-2 border-secondary-fixed-dim pb-1 hover:text-primary transition-colors duration-200" to="/">Home</Link>
+            <Link className="text-on-surface-variant hover:text-primary transition-colors duration-200" to="#">About</Link>
+            <Link className="text-on-surface-variant hover:text-primary transition-colors duration-200" to="#">How it Works</Link>
           </div>
           <div className="flex items-center space-x-4">
             <Link to="/login" className="text-on-surface-variant hover:text-primary transition-all font-medium">Login</Link>

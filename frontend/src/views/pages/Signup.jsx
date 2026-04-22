@@ -52,9 +52,9 @@ const Signup = () => {
         <div className="flex justify-between items-center px-8 h-20 w-full max-w-7xl mx-auto">
           <Link to="/" className="text-xl font-bold text-emerald-900 dark:text-emerald-50 tracking-tighter font-headline-xl">AjkerDaam</Link>
           <div className="hidden md:flex items-center gap-8 font-['Epilogue'] text-sm font-medium tracking-tight">
-            <Link className="text-emerald-700/70 dark:text-emerald-200/70 hover:text-emerald-900 dark:hover:text-white transition-colors duration-200" to="/?role=consumer">Consumer</Link>
-            <Link className="text-emerald-700/70 dark:text-emerald-200/70 hover:text-emerald-900 dark:hover:text-white transition-colors duration-200" to="/?role=vendor">Vendor</Link>
-            <Link className="text-emerald-700/70 dark:text-emerald-200/70 hover:text-emerald-900 dark:hover:text-white transition-colors duration-200" to="/?role=admin">Admin</Link>
+            <Link className="text-emerald-700 dark:text-emerald-200 hover:text-emerald-900 dark:hover:text-white transition-colors duration-200 font-bold" to="/">Home</Link>
+            <Link className="text-emerald-700/70 dark:text-emerald-200/70 hover:text-emerald-900 dark:hover:text-white transition-colors duration-200" to="#">About</Link>
+            <Link className="text-emerald-700/70 dark:text-emerald-200/70 hover:text-emerald-900 dark:hover:text-white transition-colors duration-200" to="#">How it Works</Link>
           </div>
           <div className="flex items-center gap-4">
             <Link to="/login" className="text-emerald-700/70 dark:text-emerald-200/70 hover:text-emerald-900 font-medium text-sm transition-all">Login</Link>
@@ -137,7 +137,6 @@ const Signup = () => {
                   >
                     <option value="consumer">Consumer</option>
                     <option value="vendor">Vendor</option>
-                    <option value="admin">Admin</option>
                   </select>
                   <span className="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-outline-variant pointer-events-none">expand_more</span>
                 </div>
