@@ -1,0 +1,76 @@
+﻿1. Crowd-Sourced Real-Time Market Price Transparency System to Prevent Price Manipulation and Syndicates
+(Real-Time Crowd-Sourced Price Transparency System) 
+* Real-time price dashboard showing daily prices of essential goods (rice, oil, eggs, vegetables, fish, meat).
+
+* Area-wise comparison of market prices (city, district, local market level).
+
+* Crowdsourced price submission by consumers with photo proof and location tagging.
+
+* Vendor participation panel for shop owners to publish current product prices.
+
+* AI-based price anomaly detection to identify unusual spikes and possible syndicate activity.
+
+* Price history & trend analysis (weekly/monthly changes, seasonal variation).
+
+* Consumer alerts & notifications when prices rise suddenly in nearby markets.
+
+* Admin/Government monitoring dashboard to track suspicious pricing and complaints.
+
+* User trust & verification system to reduce fake reports and misinformation.
+
+* Search & filter system by product, location, and price range.
+
+* Data visualization using charts/graphs for easy understanding of market trends.
+
+* Mobile-friendly web interface accessible for both urban and rural users.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FINAL SPRINT PLAN (4 Sprints × 5 Features)
+🟢 Sprint 2: Core System (MVP)
+🎯 Goal: Basic working platform
+✅ 5 Features:
+   1. User Authentication (JWT login/signup)
+   2. Role-Based Access (Consumer, Vendor, Admin)
+   3. Product Catalog System
+   4. Price Submission (with location + photo)
+   5. Vendor Price Management Panel
+👉 Result: Users can login and submit/view prices
+🔵 Sprint 3: Dashboard & Interaction
+🎯 Goal: Make system useful and interactive
+✅ 5 Features:
+   1. Real-Time Price Dashboard (Socket.io)
+   2. Price Comparison by Region
+   3. Search & Filter System
+   4. Data Visualization (charts/graphs)
+   5. Basic Alert System (price spike notification)
+👉 Result: Users can analyze and compare prices visually
+🟡 Sprint 4: Intelligence & Monitoring
+🎯 Goal: Add smart/AI capabilities
+✅ 5 Features:
+   1. Price Trend Analysis (history tracking)
+   2. AI-Based Anomaly Detection
+   3. Fraud/Suspicious Data Flagging
+   4. Admin Dashboard (monitor users & data)
+   5. User Reputation & Verification System
+👉 Result: System becomes intelligent and trustworthy
+🔴 Sprint 5: Advanced & Final Features
+🎯 Goal: Make project standout
+✅ 5 Features:
+   1. Farmer-to-Consumer Marketplace
+   2. Real-Time Chat System
+   3. Map Heatmap Visualization (location-based pricing)
+   4. Push Notifications (email/browser)
+   5. Progressive Web App (PWA + offline mode)
+👉 Result: Full-featured, production-level app
